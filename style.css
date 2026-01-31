@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin-top: 0px;
+    line-height: normal;
+}
+.lightBody{
+    background-color: rgb(193, 146, 84);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.darkBody{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: aliceblue;
+}
+.btn{
+    height: 50px;
+    width: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(33, 2, 2);
+    background-color: aliceblue;
+    border: 3px solid white;
+}
+#mode{
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+#reset{
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+.game{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 80vh;
+    width: 45vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3px;
+}
+.lightC{
+    background-color: brown;
+    border-radius: 40%;
+}
+.darkC{
+    background-color:brown;
+    border-radius: 40%;
+}
+.box{
+    height: 30%;
+    width: 30%;
+    margin: 5px;
+    border-radius: 15%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10rem;
+}
+.lightB{
+    background-color:azure;
+    border: 5px solid rgb(38, 6, 6);
+    color: rgb(100, 8, 8);
+}
+.darkB{
+    background-color: black;
+    border: 5px solid white;
+}
+.winner{
+    height: 100px;
+    width: 500px;
+    background-color: brown;
+    border-radius: 15px;
+    margin-left: 33vw;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hide{
+    display: none;
+}
