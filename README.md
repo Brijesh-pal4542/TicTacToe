@@ -8,4 +8,4 @@ A simple yet engaging implementation of the classic Tic Tac Toe game using HTML,
 # Technologies
 - HTML, CSS, JavaScript
 
-![alt text](../Visuals.png)
+![Visuals Of Page](Visuals.png)
